@@ -1,0 +1,49 @@
+
+
+h1{
+    border: 1px solid black;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(185, 199, 234);
+}
+
+section{
+    
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 33% 33% 34%;
+}
+
+article{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+footer{
+    border: 1px solid black;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.image{
+    height: 230px;
+    width: 260px;
+    border-radius: 100%;
+}
+
+.side{
+    background-color: rgb(185, 199, 234);
+    height: 4px;
+    margin-top: 36px;
+    margin-bottom: 15px;
+}
+
+.middle{
+    text-align: center;
+    height: 20px;
+    background-color: rgb(185, 199, 234);
+    padding-top: 34px;
+}
