@@ -48,7 +48,7 @@ main{
 }
 
 section{
-    padding-left: 28%;
+    margin: 0 auto;
     font-size: 14pt;
     margin-top: 40px;
     width: 600px;
