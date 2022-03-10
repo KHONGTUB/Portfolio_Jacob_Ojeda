@@ -1,49 +1,81 @@
 
 
-h1{
-    border: 1px solid black;
+#Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 30px;
 }
 
-h2{
+
+#Top{
+    margin: 20px;
+    font-size: 30pt;
     text-align: center;
-    background-color: rgb(185, 199, 234);
+    border: burlywood solid 8px;
+}
+h1{
+    font-size: 30pt;
+}
+h2{
+    width: fit-content;
+    background-color: skyblue;
+    font-size: 30pt;
+    margin: 0 auto;
 }
 
-section{
-    
+#Info{
+    text-align: center;
+
     display: grid;
-    margin: 50px;
     grid-template-columns: 33% 33% 34%;
 }
 
-article{
-    /* border: 1px solid black; */
+#middle{
+    border-right: solid black 5px;
+    border-left: solid black 5px;
+}
+
+#Education{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+ul{
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+li{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#Experience{
+    margin-top: 20px;
     text-align: center;
 }
 
-footer{
-    border: 1px solid black;
-    margin: 50px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+h3{
+    width: 80vw;
+    border-bottom: skyblue solid 5px;
+    font-size: 30pt;
+    margin: 0 auto;
 }
 
-.image{
-    height: 230px;
-    width: 260px;
-    border-radius: 100%;
+#container
+{
+    margin: 0 auto;
+    width: 80vw;
+    display:  grid;
+    grid-template-columns: 25% 75%;
 }
 
-.side{
-    background-color: rgb(185, 199, 234);
-    height: 4px;
-    margin-top: 36px;
-    margin-bottom: 15px;
+.Time{
+    text-align: left;
 }
 
-.middle{
-    text-align: center;
-    height: 20px;
-    background-color: rgb(185, 199, 234);
-    padding-top: 34px;
+.Place{
+    text-align: right;
 }
