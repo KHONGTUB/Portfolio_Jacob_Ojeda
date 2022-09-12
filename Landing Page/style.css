@@ -1,0 +1,41 @@
+#Navigation{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: black;
+}
+
+#Navigation>li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover{
+    color: blue;
+}
+
+li{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 30pt;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
